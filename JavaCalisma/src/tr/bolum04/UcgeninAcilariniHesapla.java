@@ -22,9 +22,11 @@ public class UcgeninAcilariniHesapla {
 		double A = Math.toDegrees(Math.acos((a * a - b * b - c * c) / (-2 * b * c)));
 		double B = Math.toDegrees(Math.acos((b * b - a * a - c * c) / (-2 * a * c)));
 		double C = Math.toDegrees(Math.acos((c * c - b * b - a * a) / (-2 * a * b)));
-		
+
 		System.out.println("1. aci: " + Math.round(A * 100) / 100.0);
 		System.out.println("2. aci: " + Math.round(B * 100) / 100.0);
 		System.out.println("3. aci: " + Math.round(C * 100) / 100.0);
+
+		klavye.close();
 	}
 }
