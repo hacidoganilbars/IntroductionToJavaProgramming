@@ -2,6 +2,8 @@ package tr.bolum08;
 
 import java.util.Scanner;
 
+//8
+//-1 3 -1 -1 1 1 2 0,5 2 -1 3 3 4 2 4 -0,5
 public class EnYakinIkiNoktayiBulmaca {
 
 	public static void main(String[] args) {
